@@ -1,13 +1,12 @@
 @font-face {
-    font-family: 'Minecraft'; /* Даем шрифту любое имя */
-    src: url('Minecraft.woff2') format('woff2'), /* Самый современный формат */
-         url('Minecraft.woff') format('woff'),   /* Хороший формат для старых браузеров */
-         url('Minecraft.ttf') format('truetype'); /* Убедитесь, что у вас есть TTF-файл */
+    font-family: 'Minecraft';
+    src: url('Minecraft.woff2') format('woff2'),
+         url('Minecraft.woff') format('woff'),
+         url('Minecraft.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
 
-/* Затем примените этот шрифт к любому элементу */
 body {
     font-family: 'Minecraft', sans-serif;
     margin: 0;
@@ -75,5 +74,4 @@ a {
 
 a:hover {
     text-decoration: underline;
-
 }
