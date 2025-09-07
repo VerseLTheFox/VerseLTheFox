@@ -1,7 +1,15 @@
-@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+@font-face {
+    font-family: 'Minecraft'; /* Даем шрифту любое имя */
+    src: url('Minecraft.woff2') format('woff2'), /* Самый современный формат */
+         url('Minecraft.woff') format('woff'),   /* Хороший формат для старых браузеров */
+         url('Minecraft.ttf') format('truetype'); /* Убедитесь, что у вас есть TTF-файл */
+    font-weight: normal;
+    font-style: normal;
+}
 
+/* Затем примените этот шрифт к любому элементу */
 body {
-    font-family: 'Press Start 2P', sans-serif;
+    font-family: 'Minecraft', sans-serif;
     margin: 0;
     padding: 20px;
     background-color: black;
@@ -67,4 +75,5 @@ a {
 
 a:hover {
     text-decoration: underline;
+
 }
