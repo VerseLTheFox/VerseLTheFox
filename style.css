@@ -15,6 +15,7 @@ body {
 	background-size: cover;
     text-align: center;
     color: #fff;
+	overflow-x: hidden;
 }
 
 h1 {
@@ -125,5 +126,6 @@ a:hover {
 
 
 }
+
 
 
