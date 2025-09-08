@@ -11,7 +11,7 @@ body {
     font-family: 'Minecraft', sans-serif;
     margin: 0;
     padding: 20px;
-    background: black url('Evgen.jpg') no-repeat center center fixed;
+    background: black url('Background.png') no-repeat center center fixed;
 	background-size: cover;
     text-align: center;
     color: #fff;
@@ -25,7 +25,6 @@ h1 {
 .container {
     max-width: 800px;
     margin: 0 auto;
-    background: purple;
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 2px 4px rgba(0,0,0,0.1);
@@ -36,7 +35,6 @@ h1 {
 .container1 {
     max-width: 450px;
     margin: 0 auto;
-    background: purple;
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 2px 4px rgba(0,0,0,0.1);
@@ -44,15 +42,24 @@ h1 {
     font-size: 50px;
 }
 
-.container2 {
-    max-width: 300px;
-    margin: 0 auto;
-    background: purple;
+.button {
+    display: block;
+    max-width: 150px;
+    margin: 0 auto 10px auto;
+    background: #8b00ff;
     padding: 10px;
     border-radius: 8px;
     box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-    margin-bottom: 10px;
     font-size: 18px;
+    color: #fff;
+    text-decoration: none;
+    text-align: center;
+}
+
+.button:hover {
+    text-decoration: none;
+    background: #a366ff;
+	transform: translateY(-2px);
 }
 
 .link-row {
@@ -83,7 +90,6 @@ h1 {
 .container3 {
     max-width: 175px;
     margin: 0 auto;
-    background: purple;
     padding: 10px;
     border-radius: 8px;
     box-shadow: 0 2px 4px rgba(0,0,0,0.1);
@@ -102,4 +108,3 @@ a:hover {
     text-decoration: underline;
 
 }
-
