@@ -56,6 +56,15 @@ h1 {
     text-align: center;
 }
 
+@media (max-width: 768px) {
+	.button {
+		max-width: 250px;
+		padding: 15px;
+		font-size: 22px;
+		margin-bottom: 15px;
+	}
+}
+
 .button:hover {
     text-decoration: none;
     background: #a366ff;
@@ -106,5 +115,6 @@ a {
 
 a:hover {
     text-decoration: underline;
+
 
 }
