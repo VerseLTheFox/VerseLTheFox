@@ -45,31 +45,47 @@ h1 {
 
 .button {
     display: block;
-    max-width: 150px;
+    max-width: 250px;
     margin: 0 auto 10px auto;
     background: #8b00ff;
-    padding: 10px;
+    padding: 15px;
     border-radius: 8px;
     box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-    font-size: 18px;
+    font-size: 25px;
     color: #fff;
     text-decoration: none;
     text-align: center;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 900px) {
 	.container {
-        font-size: 33px;
+        font-size: 45px;
     }
     
     .container1 {
-        font-size: 30px;
+        font-size: 35px;
     }
 	.button {
-		max-width: 200px;
+		max-width: 250px;
 		padding: 15px;
-		font-size: 20px;
-		margin-bottom: 15px;
+		font-size: 25px;
+		margin-bottom: 10px;
+	}
+}
+
+@media (max-width: 590px) {
+	.container {
+        font-size: 35px;
+    }
+    
+    .container1 {
+        font-size: 28px;
+    }
+	.button {
+		max-width: 180px;
+		padding: 11px;
+		font-size: 18px;
+		margin-bottom: 10px;
 	}
 }
 
@@ -123,9 +139,44 @@ a {
 
 a:hover {
     text-decoration: underline;
-
-
 }
 
+.button {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    text-align: left;
+    padding-left: 15px;
+    position: relative;
+}
 
+.button img {
+    width: 38px;
+    height: 38px;
+    margin-right: 15px;
+    flex-shrink: 0;
+}
 
+.button::after {
+    content: '';
+    flex-grow: 1;
+}
+
+.button {
+    text-align: center;
+}
+
+.button span {
+    flex-grow: 5;
+    text-align: center;
+    margin-right: -10px;
+}
+
+@media (max-width: 590px) {
+	.button img {
+		width: 30px;
+		height: 30px;
+		margin-right: 15px;
+		flex-shrink: 0;
+	}
+}
