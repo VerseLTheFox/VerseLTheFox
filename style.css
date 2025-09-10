@@ -56,6 +56,30 @@ h1 {
 	background: rgba(0, 0, 0, 0.1);
 }
 
+.img-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.img {
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    margin: 0 auto 15px auto;
+    padding: 20px;
+    border-radius: 8px;
+    max-width: 420px;
+    line-height: 1.6;
+    background: rgba(0, 0, 0, 0.1);
+}
+
+.img img {
+    width: 400px;
+    display: block;
+    margin: 0 auto;
+}
+
 .button {
     display: block;
     max-width: 250px;
