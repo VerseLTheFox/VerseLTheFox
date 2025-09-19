@@ -101,6 +101,28 @@ h1 {
     }
 }
 
+.sort-container {
+    margin: 20px auto;
+    text-align: center;
+}
+
+.sort-btn {
+    background: #8b00ff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-family: 'Minecraft', sans-serif;
+    font-size: 18px;
+    transition: all 0.3s;
+}
+
+.sort-btn:hover {
+    background: #a366ff;
+    transform: translateY(-3px);
+}
+
 .button {
     display: block;
     max-width: 250px;
@@ -113,6 +135,7 @@ h1 {
     color: #fff;
     text-decoration: none;
     text-align: center;
+	transition: all 0.3s;
 }
 
 .button-png {
@@ -127,6 +150,7 @@ h1 {
     color: #fff;
     text-decoration: none;
     text-align: center;
+	transition: all 0.3s;
 }
 
 @media (max-width: 900px) {
