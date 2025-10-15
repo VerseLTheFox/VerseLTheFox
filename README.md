@@ -1,16 +1,39 @@
-## Hi there 👋
+# 🌟 VerseL Info — мой личный сайт  
 
-<!--
-**VerseLTheFox/VerselTheFox** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+Привет! Меня зовут Верс, и это мой скромный уголок в интернете.  
+Здесь я собираю всё, что мне дорого: творчество, ссылки и немного личного.  
 
-Here are some ideas to get you started:
+---
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+## 📚 Что внутри?  
+- 🏠 **Главная** — навигация по сайту  
+- 🎨 **Галерея** — коллекция любимых артов  
+- 👋 **Обо мне** — несколько фактов обо мне  
+- 🔗 **Контакты** — где меня можно найти  
+
+---
+
+## 🛠 Как сделан?  
+Чистый и аккуратный код:  
+- HTML  
+- CSS  
+- JavaScript  
+
+---
+
+## 🌐 Открыть сайт  
+🎯 **[verseLthefox.github.io](https://verseLthefox.github.io)**  
+
+---
+
+## 📮 Связаться со мной  
+- VK: [VerseLTheFox](https://vk.com/verselthefox)  
+- Telegram: [verselbasement](https://t.me/verselbasement)  
+- YouTube: [DolyneVersel](https://youtube.com/@dolyneversel)  
+
+---
+
+*«Даже в коде можно найти теплоту»*  
+
+<!-- Diana was here 🦊💻 -->
+<!-- Она важнее, чем вам кажется. -->
