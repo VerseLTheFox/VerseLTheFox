@@ -367,3 +367,25 @@ a:hover {
     font-size: 35px;
 	background: rgba(0, 0, 0, 0.1);
 }
+
+body * {
+    animation: gentleAppear 0.8s ease-out both;
+}
+
+.container { animation-delay: 0.1s; }
+.container1 { animation-delay: 0.2s; }
+.button { animation-delay: 0.3s; }
+.container4 { animation-delay: 0.4s; }
+.container-text { animation-delay: 0.5s; }
+
+@keyframes gentleAppear {
+    from {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
